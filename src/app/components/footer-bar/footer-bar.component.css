@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    background-color: #004080;
+}
+
+.info-text {
+    color: rgb(172, 168, 168);
+    font-size: 12px;
+}
+
+h2 {
+    color: white;
+}
+
+.footer-bar {
+    color: white;
+    padding: 20px;
+  }
+  form {
+    display: flex;
+    align-items: right;
+  }
+  label {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  input, textarea {
+    width: 90%;
+    max-width: 1000px;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background-color: white;
+    color: #004080;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  button:hover {
+    background-color: #003366;
+    color: white;
+  }
